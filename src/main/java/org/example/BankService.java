@@ -41,9 +41,6 @@ public class BankService {
 
     private static String generateAccountNumber(){
         Random random = new Random();
-
-
-       //char[] numerals = "0123456789".toCharArray();
         String[] strArray = new String[12];
         for(int i =0; i<12;i++){
            if(i>0 && i%3 ==0) {
